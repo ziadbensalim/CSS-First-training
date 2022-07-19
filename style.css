@@ -59,3 +59,20 @@ aside {
   border-top: 5px solid #cd2353;
   border-bottom: 5px solid #cd2353;
 }
+/*styling links*/
+a:link {
+  color: #000793;
+  text-decoration: none;
+}
+a:visited {
+  color: darkslategray;
+}
+a:hover {
+  color: #dc143c;
+  text-decoration: underline;
+  font-style: italic;
+}
+a:active {
+  color: #9b0000;
+  text-decoration: underline wavy;
+}
