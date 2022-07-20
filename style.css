@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 h3,
@@ -19,9 +24,11 @@ h1 {
 }
 h2 {
   font-size: 30px;
+  margin-bottom: 25px;
 }
 h3 {
   font-size: 20px;
+  margin: 10px 0;
 }
 h4 {
   font-size: 15px;
@@ -31,9 +38,12 @@ h4 {
 p {
   font-size: 22;
   line-height: 1.5;
+  padding: 5px 0;
 }
 li {
   font-size: 20;
+  padding: 10px;
+  margin-left: 40px;
 }
 /* footer p {
   font-size: 16px;
@@ -53,11 +63,14 @@ li {
 }
 .main-header {
   background-color: #f7f7f7;
+  padding: 20px 40px;
 }
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #cd2353;
   border-bottom: 5px solid #cd2353;
+  padding: 20px 0;
+  margin-top: 50px;
 }
 /*styling links*/
 a:link {
@@ -74,5 +87,12 @@ a:hover {
 }
 a:active {
   color: #9b0000;
-  text-decoration: underline wavy;
+  text-decoration: underline;
+  background-color: #a9a9a9;
+}
+nav {
+  font-size: 25px;
+}
+.second-header {
+  margin: 25px 0;
 }
