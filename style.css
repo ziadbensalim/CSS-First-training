@@ -71,6 +71,8 @@ aside {
   border-bottom: 5px solid #cd2353;
   padding: 20px 0;
   margin-top: 50px;
+  width: 500px;
+  height: auto;
 }
 /*styling links*/
 a:link {
@@ -95,4 +97,8 @@ nav {
 }
 .second-header {
   margin: 25px 0;
+}
+.post-img {
+  width: 50%;
+  height: auto;
 }
