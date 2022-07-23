@@ -106,3 +106,8 @@ nav {
   width: 800px;
   margin: 0 auto;
 }
+nav a {
+  display: inline-block;
+  margin: 20px;
+  padding-right: 0;
+}
