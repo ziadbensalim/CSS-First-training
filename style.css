@@ -127,3 +127,21 @@ button:hover {
   background-color: #ff0000;
   color: #d1d1d1;
 }
+h1::first-letter {
+  font-style: normal;
+}
+h2 {
+  position: relative;
+}
+h2::after {
+  content: "TOP";
+  background-color: #cd2353;
+  color: black;
+  display: inline-block;
+  font-size: 15px;
+  padding: 2px 5px;
+  margin: -10px -10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
